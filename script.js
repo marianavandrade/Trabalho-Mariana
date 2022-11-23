@@ -1,4 +1,6 @@
 function verificar() {
+    localStorage.clear();
+    
     let nome = document.getElementById('nome').value;
     let login = document.getElementById('login').value;
     let email = document.getElementById('email').value;
